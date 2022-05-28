@@ -3,49 +3,62 @@
 namespace Tests\Unit;
 
 use Bluelabs\PHPErwin\Client;
+use Dotenv\Dotenv;
 use PHPUnit\Framework\TestCase;
 
 class ClientTest extends TestCase
 {
+    protected $dotenv;
+
+    public function getApiKey()
+    {
+        $this->dotenv = (($this->dotenv) ?: Dotenv::createImmutable(__DIR__.'/../../')->load());
+
+        return $_ENV['API_KEY'] ?? $_SERVER['API_KEY'] ?? null;
+    }
+
+    /**
+     * @param  array  $config
+     *
+     * @return Client
+     */
+    private function getClient(array $config = [])
+    {
+        $apiKey = $this->getApiKey();
+
+        return new Client($apiKey, $config);
+    }
 
     public function testGetApiKey()
     {
-        $client = new Client($_ENV['API_KEY']);
-        $this->assertEquals($_ENV['API_KEY'], $client->getApiKey());
+        $this->assertEquals($this->getApiKey(), $this->getClient()->getApiKey());
     }
 
     public function testGetSandboxHost()
     {
-        $client = new Client($_ENV['API_KEY']);
-        $this->assertEquals(Client::DEFAULT_SANDBOX_HOST, $client->getSandboxHost());
+        $this->assertEquals(Client::DEFAULT_SANDBOX_HOST, $this->getClient()->getSandboxHost());
     }
 
     public function testGetDefaultHost()
     {
-        $client = new Client($_ENV['API_KEY']);
-        $this->assertEquals(Client::DEFAULT_HOST, $client->getDefaultHost());
+        $this->assertEquals(Client::DEFAULT_HOST, $this->getClient()->getDefaultHost());
     }
 
     public function testCreateClient()
     {
-        $client = new Client($_ENV['API_KEY']);
-        $this->assertInstanceOf(Client::class, $client);
+        $this->assertInstanceOf(Client::class, $this->getClient());
     }
 
     public function testGetSendDataUrl()
     {
-        $client = new Client($_ENV['API_KEY']);
         $this->assertEquals(implode('/', [
             Client::DEFAULT_HOST, Client::API_PATH, Client::API_VERSION, Client::STREAMS_ENDPOINT,
-        ]), $client->getSendDataUrl());
+        ]), $this->getClient()->getSendDataUrl());
     }
 
     public function testClientRequest()
     {
-        $client   = new Client($_ENV['API_KEY']);
-        $response = $client->sendRequest([
-            'erwin' => true,
-        ]);
+        $response = $this->getClient()->sendRequest(['erwin' => true]);
 
         $this->assertEquals(201, $response->getStatusCode());
     }
