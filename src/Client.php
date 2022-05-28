@@ -15,7 +15,7 @@ class Client
     /**
      * Version
      */
-    const VERSION = '0.1.0';
+    const VERSION = '0.1.1';
 
     /**
      * Default host url
@@ -41,6 +41,11 @@ class Client
      * ERWIN Streams endpoint
      */
     const STREAMS_ENDPOINT = 'streams';
+
+    /**
+     * ERWIN User agent
+     */
+    const DEFAULT_USER_AGENT = 'Erwin PHP Client v'.self::VERSION;
 
     /**
      * @var string
@@ -201,9 +206,18 @@ class Client
                 'Accept'        => 'application/json',
                 'Content-Type'  => 'application/json',
                 'Authorization' => 'Bearer '.$this->getApiKey(),
+                'User-Agent'    => $this->getUserAgent(),
             ],
             'body'    => $data,
         ], $options));
+    }
+
+    /**
+     * @return array|string
+     */
+    public function getUserAgent()
+    {
+        return $this->getConfig('user_agent') ?: static::DEFAULT_USER_AGENT;
     }
 
     /**

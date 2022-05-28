@@ -14,7 +14,4 @@
             <directory suffix=".php">./app</directory>
         </include>
     </coverage>
-    <php>
-        <env name="API_KEY" value="SET_THE_KEY" force="true"/>
-    </php>
 </phpunit>
