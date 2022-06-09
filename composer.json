@@ -1,6 +1,7 @@
 {
   "name": "bluelabs/php-erwin",
   "description": "PHP library for Bluelabs Erwin",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Antonio Gatta",
