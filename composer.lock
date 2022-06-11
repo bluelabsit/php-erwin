@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a42621ca4b8b75f3bd338a60a85de32d",
+    "content-hash": "3902e6ac13c7b0159cfa920d48219881",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -99,12 +99,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "74a8602c6faec9ef74b7a9391ac82c5e65b1cdab"
+                "reference": "e3ff079b22820c2029d4c2a87796b6a0b8716ad8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/74a8602c6faec9ef74b7a9391ac82c5e65b1cdab",
-                "reference": "74a8602c6faec9ef74b7a9391ac82c5e65b1cdab",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/e3ff079b22820c2029d4c2a87796b6a0b8716ad8",
+                "reference": "e3ff079b22820c2029d4c2a87796b6a0b8716ad8",
                 "shasum": ""
             },
             "require": {
@@ -211,7 +211,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-25T13:24:33+00:00"
+            "time": "2022-06-09T21:39:15+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -299,12 +299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "f8ae7cb4c654e9d6f31c10271321ea99f7ca8ae9"
+                "reference": "83260bb50b8fc753c72d14dc1621a2dac31877ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f8ae7cb4c654e9d6f31c10271321ea99f7ca8ae9",
-                "reference": "f8ae7cb4c654e9d6f31c10271321ea99f7ca8ae9",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/83260bb50b8fc753c72d14dc1621a2dac31877ee",
+                "reference": "83260bb50b8fc753c72d14dc1621a2dac31877ee",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -402,7 +402,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-02T17:34:52+00:00"
+            "time": "2022-06-09T08:26:02+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -546,12 +546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "89245b6e19017f627a35af3874ad9251b76b02cc"
+                "reference": "be43102d3491e8335812aa5441a1552108ddd7b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/89245b6e19017f627a35af3874ad9251b76b02cc",
-                "reference": "89245b6e19017f627a35af3874ad9251b76b02cc",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/be43102d3491e8335812aa5441a1552108ddd7b5",
+                "reference": "be43102d3491e8335812aa5441a1552108ddd7b5",
                 "shasum": ""
             },
             "require": {
@@ -602,7 +602,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2022-05-09T16:28:53+00:00"
+            "time": "2022-06-07T14:46:48+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1520,12 +1520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "ec4daa4b45faf6a683c9c0acf92fe1377d695a54"
+                "reference": "2c41119c817eaf5bf08d362005b980dc45999b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/ec4daa4b45faf6a683c9c0acf92fe1377d695a54",
-                "reference": "ec4daa4b45faf6a683c9c0acf92fe1377d695a54",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/2c41119c817eaf5bf08d362005b980dc45999b5b",
+                "reference": "2c41119c817eaf5bf08d362005b980dc45999b5b",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-07T10:52:05+00:00"
+            "time": "2022-05-30T20:57:52+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1629,16 +1629,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.13.2",
+            "version": "4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "210577fe3cf7badcc5814d99455df46564f3c077"
+                "reference": "2d589921f23d869846a52c541247e0bafca61ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/210577fe3cf7badcc5814d99455df46564f3c077",
-                "reference": "210577fe3cf7badcc5814d99455df46564f3c077",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2d589921f23d869846a52c541247e0bafca61ab3",
+                "reference": "2d589921f23d869846a52c541247e0bafca61ab3",
                 "shasum": ""
             },
             "require": {
@@ -1677,7 +1677,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2021-11-30T19:35:32+00:00"
+            "time": "2022-06-04T10:44:36+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2073,19 +2073,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "5b85faa0aedb9b1ee542d00932a3aac5d0b9f56c"
+                "reference": "117043c3dc8afcae8e2cb9aeaba09fb03ad8e13b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/5b85faa0aedb9b1ee542d00932a3aac5d0b9f56c",
-                "reference": "5b85faa0aedb9b1ee542d00932a3aac5d0b9f56c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/117043c3dc8afcae8e2cb9aeaba09fb03ad8e13b",
+                "reference": "117043c3dc8afcae8e2cb9aeaba09fb03ad8e13b",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
-                "nikic/php-parser": "^4.13.0",
+                "nikic/php-parser": "^4.14",
                 "php": ">=7.3",
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
@@ -2138,7 +2138,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-03T08:11:05+00:00"
+            "time": "2022-06-09T06:28:26+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -2371,12 +2371,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3a36f4d486ef9671bb184579a27d1f18f5369a61"
+                "reference": "94103772e8b7b547a50d72c65b90658c66ea1c4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3a36f4d486ef9671bb184579a27d1f18f5369a61",
-                "reference": "3a36f4d486ef9671bb184579a27d1f18f5369a61",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/94103772e8b7b547a50d72c65b90658c66ea1c4d",
+                "reference": "94103772e8b7b547a50d72c65b90658c66ea1c4d",
                 "shasum": ""
             },
             "require": {
@@ -2461,7 +2461,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-23T07:11:21+00:00"
+            "time": "2022-06-09T06:49:30+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -3566,16 +3566,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "dev-master",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "dc96b6775d038bfa31a240150ad8505bfb856c2d"
+                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/dc96b6775d038bfa31a240150ad8505bfb856c2d",
-                "reference": "dc96b6775d038bfa31a240150ad8505bfb856c2d",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
                 "shasum": ""
             },
             "require": {
@@ -3616,21 +3616,20 @@
                 "check",
                 "validate"
             ],
-            "time": "2022-04-18T06:42:29+00:00"
+            "time": "2022-06-03T18:03:27+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "guzzlehttp/guzzle": 20,
-        "illuminate/support": 20,
         "phpunit/phpunit": 20,
         "vlucas/phpdotenv": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~7.1"
+        "php": "^7.2.5 || ^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
