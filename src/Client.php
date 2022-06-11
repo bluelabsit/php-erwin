@@ -15,7 +15,7 @@ class Client
     /**
      * Version
      */
-    const VERSION = '1.3.1';
+    const VERSION = '1.4.2';
 
     /**
      * Default host url
