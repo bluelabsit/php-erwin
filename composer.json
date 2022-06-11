@@ -1,7 +1,7 @@
 {
   "name": "bluelabs/php-erwin",
   "description": "PHP library for Bluelabs Erwin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "Antonio Gatta",
@@ -15,9 +15,9 @@
     ]
   },
   "require": {
-    "php": "~7.1",
+    "php": "^7.2 || ^8.0",
     "guzzlehttp/guzzle": "^7.4@dev",
-    "illuminate/support": "8.x-dev"
+    "illuminate/support": ">=5.0.0"
   },
   "type": "library",
   "license": "GPL-3.0-or-later",
