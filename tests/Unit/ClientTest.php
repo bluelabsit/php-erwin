@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use Bluelabs\PHPErwin\Client;
+use Bluelabs\Erwin\PHP\Client;
 use Dotenv\Dotenv;
 use PHPUnit\Framework\TestCase;
 

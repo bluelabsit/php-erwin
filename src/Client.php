@@ -1,6 +1,6 @@
 <?php
 
-namespace Bluelabs\PHPErwin;
+namespace Bluelabs\Erwin\PHP;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Str;
@@ -15,7 +15,7 @@ class Client
     /**
      * Version
      */
-    const VERSION = '0.1.1';
+    const VERSION = '1.3.1';
 
     /**
      * Default host url
