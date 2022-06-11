@@ -33,7 +33,6 @@
   "readme": "README.md",
   "minimum-stability": "dev",
   "license": "MIT",
-  "type": "package",
   "require-dev": {
     "roave/security-advisories": "dev-latest",
     "phpunit/phpunit": "9.5.x-dev",
