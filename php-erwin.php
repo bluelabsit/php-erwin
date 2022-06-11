@@ -1,5 +1,5 @@
 <?php
 
-use Bluelabs\Erwin\Client;
+use Bluelabs\Erwin\PHP\Client;
 
 include __DIR__.'/vendor/autoload.php';
