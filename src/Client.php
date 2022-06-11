@@ -86,11 +86,8 @@ class Client
         if ($name === 'api_key') {
             return $this->apiKey;
         }
-        if (isset($this->config[$name])) {
-            return $this->config[$name];
-        }
 
-        return $this->config;
+        return $this->config[$name] ?? (isset($name) ? null : $this->config);
     }
 
     /**
